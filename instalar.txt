@@ -1,0 +1,2 @@
+npm install typescript --save-dev  ==> para installar
+npx tsc --version ==> para ver la version

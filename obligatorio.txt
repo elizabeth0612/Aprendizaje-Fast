@@ -1,0 +1,12 @@
+crear el archivo .gitignore => https://www.toptal.com/developers/gitignorem => Mac Linux Node Windows
+
+crear el archivo .editorconfig
+
+generar el package.json con el comando => npm init -y
+
+luego instalar la dependencia (typeScript)
+
+npm install typescript --save-dev
+
+npx tsc --version
+crear carpeta src

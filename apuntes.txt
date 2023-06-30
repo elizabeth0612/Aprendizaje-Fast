@@ -1,0 +1,33 @@
+1.-genera el package.json.
+npm init -y
+2.-node no lee y el navegador tampoco lee (typescript) por eso se hace un proceso de transpilacion pero hay una nueva tecnologia llamada Deno el creador de Node que esta haciendo una tecnoliga que lea a ts por defecto y ya no se haria la transpilacion
+
+3.-
+//@ts-check
+escribiendo esto , podremos ver los errores de nuestro codigo Js
+
+4.-
+ la extensión de Error Lens para tener también un feeback muy llamativo y detallado de los errores en código. usernamehw.errorlens
+
+5.- analisis de codigo estatico
+
+6.- por defecto esta en es3 pero con el --target se coloca la version que quieres es6
+
+7.- ni node ni  el navegador leen TypeScript
+
+8.- se save que hay una nueva tecnologia llamada Deno (enbase a typeScript) creador de Node que compilara por defecto typeScript ya no es necesario transpilar ya seria como lenguaje nativo
+
+9.-     // "outDir": "./",  /* Specify an output folder for all emitted files. */
+esto encontramos en el archivo tsconfig.json  el cual podemos descomentar
+y poner "outDir: "./dist" ==> lo cual haria que todos nuestros archivos se guarden en la carperta dist
+
+10.- 
+     "rootDir": "./src",  /* Specify the root folder within your source files. */
+aqui indicamos donde estaran nuestros archivos creados .ts
+
+11.- si declaramos una variable sin ningun valor al momento de querer imprimir ts nos mostrara esta accion como un error de codigo
+
+12. si tratamos de convertir un texto ramdon  a  numbers no ejecutara un NaN .. si en cso el texto es un numero si lo podra convertir
+13.-Tambien podemos expresar con any, de esta forma indicamos que puede tener cualquier tipo de dato
+14.- any se podria usar al momento de imigrar codigo
+15.- opcional shein o shen==>     hello += name?.toLowerCase() || 'nobody';

@@ -1,0 +1,16 @@
+1.-npx tsc src/demo.ts  ==> compila tu archivo .ts  y crea un archivo .js
+
+2.-npx tsc src/demo.ts --target es6 --outDir dist ==> con este comando al crear el archivo .js le pedimos que lo guarde en la carperta dist con la version es6.
+
+3.-npx tsc src/*.ts --target es6 --outDir dist ==> con esto pedimos que compile todos los archivos .ts y los guarde en la carpeta dist
+
+4.- node dist/01-hello.js ==> con esto corremos nuestro archivo js
+
+5.- npx tsc --init ==> crea el archivo tsconfig.json ==> tiene el --target
+
+6.npx tsc --watch ==> compila constamente nuestros proyectos .ts y va estar haciendola transpilacion lo cual significa que por cada cambio no estaremos ejecutando ya sera automatico
+(asi como en tiempo real ).
+
+7.-Ctrl + C, detiene el watch tambien
+
+

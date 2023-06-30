@@ -1,0 +1,15 @@
+En TypeScript, target es una opción de configuración que especifica la versión de JavaScript a la que se debe compilar el código TypeScript.
+
+La opción target se utiliza en el archivo de configuración de TypeScript (tsconfig.json) o se puede proporcionar directamente en la línea de comandos al compilar el código.
+
+Los valores comunes para target son:
+
+"es5": Compila el código TypeScript a JavaScript compatible con ECMAScript 5 (ES5). Es la opción predeterminada si no se especifica ningún valor.
+"es6": Compila el código TypeScript a JavaScript compatible con ECMAScript 2015 (ES6) o superior.
+"es2015": Es equivalente a "es6", pero es la forma antigua de referirse a la versión ES6.
+"es2016", "es2017", "es2018", etc.: Estos valores representan las versiones posteriores de ECMAScript, y cada uno compilará el código TypeScript a la versión de JavaScript correspondiente.
+Es importante tener en cuenta que, al elegir un valor para target, debes considerar la compatibilidad con los navegadores o entornos en los que se ejecutará tu código JavaScript resultante. Si tu aplicación se ejecutará en navegadores antiguos, es posible que debas elegir una versión de JavaScript más antigua como es5.
+
+Además de target, hay otras opciones relacionadas en el archivo de configuración de TypeScript, como lib (para especificar las bibliotecas de TypeScript incluidas) y module (para especificar el sistema de módulos utilizado).
+
+En resumen, target en TypeScript es la opción de configuración que determina a qué versión de JavaScript se compilará el código TypeScript.
