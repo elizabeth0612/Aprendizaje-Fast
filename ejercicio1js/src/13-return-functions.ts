@@ -31,11 +31,7 @@ const printTotal2 = (prices : number[]):void=> {
   console.log(`El total es  ${rta}`);
 }
 
-
-
   printTotal([1,2,1,1,1]);
-
-
 
 
 })();
