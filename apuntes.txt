@@ -39,4 +39,4 @@ export const products : Product []=[];
   export const addProduct = (data:Product ) =>{
     products.push(data);
    }
-
+17.- getTime convierte un tipo date a numero

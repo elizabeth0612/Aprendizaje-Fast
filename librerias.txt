@@ -1,0 +1,2 @@
+date-fns ==> npm install date-fns --save
+Lodash => tiene funciones que no tiene javascript => npm i lodash  ==> npm i --save-dev @types/lodash ==> es de la mas usadas
