@@ -40,3 +40,5 @@ export const products : Product []=[];
     products.push(data);
    }
 17.- getTime convierte un tipo date a numero
+18.- un tipo object {} se usa con const
+19.- las interfaces se utilizan para definir la estructura de un objecto

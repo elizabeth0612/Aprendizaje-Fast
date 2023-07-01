@@ -1,6 +1,6 @@
-crear el archivo .gitignore => https://www.toptal.com/developers/gitignorem => Mac Linux Node Windows
+crear el archivo .gitignore => "gitignore io =>"https://www.toptal.com/developers/gitignorem => Mac Linux Node Windows
 
-crear el archivo .editorconfig
+crear el archivo .editorconfig ==> copiar la configuracion 
 
 generar el package.json con el comando => npm init -y
 
